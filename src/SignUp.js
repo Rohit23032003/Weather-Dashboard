@@ -39,7 +39,7 @@ const SignUp = () => {
         username,
         email,
       });
-      navigate('/login');
+      navigate(`/login/${user.uid}`);
     } catch (error) {
       setError(error.message || 'Signup failed');
       console.error('Error signing up:', error);
