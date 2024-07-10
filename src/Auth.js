@@ -9,15 +9,14 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBik-Ug6WL0HDpLOBbWzQOZNgr3aJJafQc",
-  authDomain: "weather-dashboard-9af39.firebaseapp.com",
-  projectId: "weather-dashboard-9af39",
-  storageBucket: "weather-dashboard-9af39.appspot.com",
-  messagingSenderId: "693319125938",
-  appId: "1:693319125938:web:41d5e1dbd15bf3c21272ab",
-  measurementId: "G-PXSPZTEY9J"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_APP_MEASUREMENTID"
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
