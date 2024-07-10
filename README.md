@@ -1,30 +1,30 @@
-Getting Started with Create React App
-This project was bootstrapped with Create React App.
+#Getting Started with Create React App This project was bootstrapped with Create React App.
 
-Hosted Website
-Check out the hosted version of the app here.
+#Hosted Website
+Check out the hosted version of the app [here](https://668e1d346be3e36cf22f3cd3--imaginative-squirrel-eefee4.netlify.app/).
 
-Project Setup
+##Project Setup
 Follow these instructions to set up the project in your local development environment.
 
-Prerequisites
+##Prerequisites
 Make sure you have Node.js and npm installed.
 
-Cloning the Repository
-Open your terminal.
-Clone the repository:git clone https://github.com/your-username/your-repository.git
+##Cloning the Repository
+Open your terminal.\
+Clone the repository:git clone https://github.com/your-username/your-repository.git\
 Navigate to the project directory:Navigate to the project directory:
 
 
 
-Installing Dependencies
+##Installing Dependencies
 Install the required packages using npm:npm install
 
-Setting Up Firebase
+##Setting Up Firebase
 Go to the Firebase Console.
 Create a new project or select an existing project.
 Navigate to Project Settings > General > Your apps.
 Add a new web app and follow the instructions to register it.
+##Replace you firebase config in Auth.js file
 Copy the Firebase SDK snippet, which looks like this:
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
@@ -34,30 +34,28 @@ const firebaseConfig = {
   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
   appId: "YOUR_APP_ID"
 };
-replace you firebase config in Auth.js file
 
-Running the App
+##Running the App
 Start the development server: npm start
 
-Open http://localhost:3000 to view it in your browser. The page will reload when you make changes. You may also see any lint errors in the console.
+##Open http://localhost:3000 to view it in your browser. The page will reload when you make changes. You may also see any lint errors in the console.
 
-Available Scripts
+##Available Scripts
 In the project directory, you can run:
-
-npm start
-Runs the app in the development mode.
+npm start\
+##Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser. The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-npm test
+##npm test
 Launches the test runner in the interactive watch mode.
 See the section about running tests for more information.
 
-npm run build
+##npm run build
 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.
+##The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about deployment for more information.
